@@ -80,7 +80,6 @@ def send_info(message):
 
 
 def result(message):
-    print(message.text)
     an = Anwser(message.text)
     try:
         text = an.get_wiki_summary('ru')

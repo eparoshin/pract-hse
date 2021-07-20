@@ -3,9 +3,9 @@ import wikipediaapi
 import requests
 from copy import deepcopy
 
-bot = telebot.TeleBot('1814782624:AAHKmhsngEGIIvDig3FQr5GoV0DozfFcvrI')
+bot = telebot.TeleBot('token')
 headers = {
-    'x-rapidapi-key': "4dd895e9ffmsh757e915f34fb30dp1f2fa4jsn0107f41d816b",
+    'x-rapidapi-key': "key",
     'x-rapidapi-host': "bing-image-search1.p.rapidapi.com"
 }
 url = "https://bing-image-search1.p.rapidapi.com/images/search"
@@ -14,7 +14,7 @@ url_g_0 = 'https://google-search3.p.rapidapi.com/api/v1/search/q='
 url_g_1 = '+site:ru.wikipedia.org&num=10'
 
 headers_g = {
-    'x-rapidapi-key': "4dd895e9ffmsh757e915f34fb30dp1f2fa4jsn0107f41d816b",
+    'x-rapidapi-key': "key",
     'x-rapidapi-host': "google-search3.p.rapidapi.com"
 }
 
